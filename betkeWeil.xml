@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<Problem>
+  <Printing 
+    Precision ="16" 
+  />
+  <Log
+    Output="betkeWeil.log"
+    Debug="betkeWeilDebug.log"
+  />
+  <ProblemDefinition
+    Objective="normComparison"
+  />
+  <ProblemDefinitionHold
+    ObjectiveA="normComparison"
+    ObjectiveB="quadraticFormComparison"
+    ObjectiveC="directInequality"
+  />
+</Problem>
